@@ -2,18 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://snakehnb.github.io</id>
     <title>Mind Farm</title>
-    <updated>2019-07-29T06:09:39.568Z</updated>
+    <updated>2021-01-05T07:10:21.830Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://snakehnb.github.io"/>
     <link rel="self" href="https://snakehnb.github.io/atom.xml"/>
     <subtitle>种瓜得瓜，种豆得豆，哪来的虫儿！</subtitle>
     <logo>https://snakehnb.github.io/images/avatar.png</logo>
     <icon>https://snakehnb.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2019, Mind Farm</rights>
+    <rights>All rights reserved 2021, Mind Farm</rights>
+    <entry>
+        <title type="html"><![CDATA[A tip for hide statues bar]]></title>
+        <id>https://snakehnb.github.io/post/a-tip-for-hide-statues-bar/</id>
+        <link href="https://snakehnb.github.io/post/a-tip-for-hide-statues-bar/">
+        </link>
+        <updated>2019-08-05T03:21:42.000Z</updated>
+        <content type="html"><![CDATA[<p>Normally we can simply override in the specific UIViewController</p>
+<pre><code>override var prefersStatusBarHidden: Bool {
+        return true
+    }
+</code></pre>
+<p>But, if you are using UISplitViewController, the overriding have to be into the split view controller. You can use a simple extension:</p>
+<pre><code>extension UISplitViewController {    
+    override open var prefersStatusBarHidden: Bool {
+        return true
+    }
+}
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[当UISplitView遇上UINavigationController]]></title>
+        <id>https://snakehnb.github.io/post/dang-uisplitview-yu-shang-uinavigationcontroller/</id>
+        <link href="https://snakehnb.github.io/post/dang-uisplitview-yu-shang-uinavigationcontroller/">
+        </link>
+        <updated>2019-08-02T02:51:05.000Z</updated>
+        <content type="html"><![CDATA[<p>可能会发生UInavigationController嵌套，当你想设置self.navigationController中的属性时，需要根据情况检查是否应当获取被嵌套的那个navigationController。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Xcode Warnings Log #001]]></title>
-        <id>https://snakehnb.github.io/post/xcode-warnnings-ive-encounted</id>
-        <link href="https://snakehnb.github.io/post/xcode-warnnings-ive-encounted">
+        <id>https://snakehnb.github.io/post/xcode-warnnings-ive-encounted/</id>
+        <link href="https://snakehnb.github.io/post/xcode-warnnings-ive-encounted/">
         </link>
         <updated>2019-07-29T05:56:51.000Z</updated>
         <summary type="html"><![CDATA[<p>&lt;CATransformLayer: 0x283788760&gt; - changing property contentsGravity in transform-only layer, will have no effect</p>
@@ -21,13 +50,13 @@
         <content type="html"><![CDATA[<p>&lt;CATransformLayer: 0x283788760&gt; - changing property contentsGravity in transform-only layer, will have no effect</p>
 <!-- more -->
 <p>Maybe set Content Mode of UIStackView to other than the default value &quot;Scale to Fill&quot;:</p>
-<p><img src="https://snakehnb.github.io/post-images/1564380258949.png" alt=""></p>
+<figure data-type="image" tabindex="1"><img src="https://snakehnb.github.io/post-images/1564380258949.png" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Papa is here]]></title>
-        <id>https://snakehnb.github.io/post/papa-is-here</id>
-        <link href="https://snakehnb.github.io/post/papa-is-here">
+        <id>https://snakehnb.github.io/post/papa-is-here/</id>
+        <link href="https://snakehnb.github.io/post/papa-is-here/">
         </link>
         <updated>2019-07-23T05:13:15.000Z</updated>
         <summary type="html"><![CDATA[<p>Hi baby,<br>
@@ -40,8 +69,8 @@ Papa is here. Where do you want Papa rush to?</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://snakehnb.github.io/post/hello-gridea</id>
-        <link href="https://snakehnb.github.io/post/hello-gridea">
+        <id>https://snakehnb.github.io/post/hello-gridea/</id>
+        <link href="https://snakehnb.github.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
